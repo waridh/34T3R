@@ -44,8 +44,6 @@ def main
   puts "This bot's invite URL is #{bot.invite_url}"
   puts 'Click on it to invite it to your server.'
 
-  # This method call adds an event handler that will be called on any message that exactly contains the string "Ping!".
-  # The code inside it will be executed, and a "Pong!" response will be sent to the channel.
   bot.command(:random,
               description: 'this is a testing function that returns a random number between the next two parameters'
              ) do |event, min, max|

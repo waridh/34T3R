@@ -1,0 +1,4 @@
+#+title: 34T3R
+* Overview
+This is a discord bot that provides utilities for eaters. This
+particular bot is written in the Ruby programming language.
